@@ -49,37 +49,39 @@ Apache Commons Logging
 [![CodeQL](https://github.com/apache/commons-logging/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/apache/commons-logging/actions/workflows/codeql-analysis.yml)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apache/commons-logging/badge)](https://api.securityscorecards.dev/projects/github.com/apache/commons-logging)
 
-Apache Commons Logging is a thin adapter allowing configurable bridging to other,
-    well-known logging systems.
+* := thin adapter /
+  * allows
+    * configurable bridging to other -- well-known logging systems
 
 Documentation
 -------------
-
-More information can be found on the [Apache Commons Logging homepage](https://commons.apache.org/proper/commons-logging).
-The [Javadoc](https://commons.apache.org/proper/commons-logging/apidocs) can be browsed.
-Questions related to the usage of Apache Commons Logging should be posted to the [user mailing list](https://commons.apache.org/mail-lists.html).
+* [Apache Commons Logging homepage](https://commons.apache.org/proper/commons-logging) == under "/site"
+* [Javadoc](https://commons.apache.org/proper/commons-logging/apidocs) == check the source code here
+* Questions / -- related to the -- usage of Apache Commons Logging -> post to the [user mailing list](https://commons.apache.org/mail-lists.html)
 
 Getting the latest release
 --------------------------
-You can download source and binaries from our [download page](https://commons.apache.org/proper/commons-logging/download_logging.cgi).
+* ways
+  * download source and binaries -- from -- [download page](https://commons.apache.org/proper/commons-logging/download_logging.cgi)
+  * -- from  the -- central Maven repositories
 
-Alternatively, you can pull it from  the central Maven repositories:
-
-```xml
-<dependency>
-  <groupId>commons-logging</groupId>
-  <artifactId>commons-logging</artifactId>
-  <version>1.3.3</version>
-</dependency>
-```
+    ```xml
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.3.3</version>
+    </dependency>
+    ```
 
 Building
 --------
 
-Building requires a Java JDK and [Apache Maven](https://maven.apache.org/). 
-The required Java version is found in the `pom.xml` as the `maven.compiler.source` property.
-
-From a command shell, run `mvn` without arguments to invoke the default Maven goal to run all tests and checks.
+* requirements
+  * Java JDK
+    * required version -- can be found in the -- `maven.compiler.source` property | `pom.xml` 
+  * [Apache Maven](https://maven.apache.org/)
+* | command shell, run `mvn`
+  * WITHOUT arguments == default Maven goal / run ALL tests and checks
 
 Contributing
 ------------
