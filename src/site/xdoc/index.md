@@ -1,5 +1,5 @@
 * Exist many logging implementations
-* any library -- should ?? NOT force the -- use of a particular one ??
+* any library -- should ?? NOT force the -- use of a particular one :warning:
 * Apache Commons Logging
   * == thin bridge or adapter between different logging implementations
   * uses for
